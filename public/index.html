@@ -25,14 +25,14 @@
         c.height = h;
         return {
             canvas: c,
-            canvasContext: c.getContext("2d")
+            canvasContext: c.getContext("2d"),
         };
     };
 
     const initImgObj = function initImgObj(imgURI) {
         const tmpImgObj = new Image();
         tmpImgObj.src = imgURI;
-        return tmpImgObj
+        return tmpImgObj;
     };
 
     const getDataUrl = function getDataUrl(c) {
@@ -60,7 +60,7 @@
     };
 
     const initImg = async function initImg(opt) {
-        const { imgURI, position } = opt
+        const { imgURI, position } = opt;
         const { canvas, canvasContext } = initCanvas();
         const rctx = await setRotation(canvas, canvasContext, imgURI, 20);
         const rImgURI = getDataUrl(canvas);
@@ -74,9 +74,9 @@
     const initMap = function initMap() {
         map = new google.maps.Map(document.getElementById("map"), {
             zoom: 4,
-            center: { lat: -25.363, lng: 131.044 }
+            center: { lat: -25.363, lng: 131.044 },
         });
-    }
+    };
 
     const loadGmap = function loadGmap(k, callbackFunctionName, imgURI) {
         const script = document.createElement('script');
@@ -89,7 +89,7 @@
             initImg(opt);
         };
         document.head.appendChild(script);
-    }
+    };
 </script>
 <script>
     // Call flow
