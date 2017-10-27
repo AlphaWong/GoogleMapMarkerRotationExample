@@ -21,3 +21,7 @@ http://jsfiddle.net/fe9grwdf/39/
 
 # Report issue
 alpha.wong@tuta.io
+
+# Better solution by [@andrewmmc](https://github.com/andrewmmc)
+It only needs to few by using overlay feature !!
+https://codepen.io/andrewmmc/pen/jaNbYV
