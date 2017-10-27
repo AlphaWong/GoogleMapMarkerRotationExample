@@ -72,7 +72,7 @@
     };
 
     const initMap = function initMap() {
-        const map = new google.maps.Map(document.getElementById("map"), {
+        map = new google.maps.Map(document.getElementById("map"), {
             zoom: 4,
             center: { lat: -25.363, lng: 131.044 },
         });
@@ -97,6 +97,7 @@
     // initMap
     // initImg
 
+    let map;
     const apiKey = 'AIzaSyAFqIAwgderx5Xb2Ltzsl2o9c19mcj1iGY';
     const markerURI = './imgs/404.png';
     window.initMap = initMap;
