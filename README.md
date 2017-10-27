@@ -15,9 +15,9 @@ https://mapmarkerrotationexample.firebaseapp.com/
 http://jsfiddle.net/fe9grwdf/39/
 
 # Credit
-- Andrew MOK
-- Benjamin PO
-- Jim CHAN
+- Andrew MOK @andrewmmc
+- Benjamin PO @benjamin-po
+- Jim CHAN @jim0128
 
 # Report issue
 alpha.wong@tuta.io
